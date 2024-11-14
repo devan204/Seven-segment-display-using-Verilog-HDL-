@@ -34,6 +34,7 @@ Diagram
 
 
 Verilog Code for Seven-Segment Display
+```
 
 // seven_segment_display.v
 module seven_segment_display (
@@ -56,14 +57,14 @@ module seven_segment_display (
         endcase
     end
 endmodule
-
+```
 output
 ![Screenshot 2024-09-26 140505](https://github.com/user-attachments/assets/1406124f-c33e-4ec3-a458-05f00a968144)
 
 
 
 Testbench for Seven-Segment Display:
-
+```
 // seven_segment_display_tb.v
 `timescale 1ns / 1ps
 
@@ -103,6 +104,7 @@ module seven_segment_display_tb;
         $monitor("Time=%0t | binary_input=%b | seg_output=%b", $time, binary_input, seg_output);
     end
 endmodule
+```
 output:
 ![Screenshot 2024-09-29 133307](https://github.com/user-attachments/assets/e4bc482e-bd45-40a4-8e3b-4a535d61fb6d)
 
