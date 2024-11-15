@@ -1,4 +1,4 @@
-# Seven Segment Display using Verilog HDL and Testbench Verification
+# 2. Seven Segment Display using Verilog HDL and Testbench Verification
 
 
 ## Aim
@@ -34,7 +34,7 @@ Save and Document Results:
 
 Capture screenshots of the waveform and save the simulation logs. These will be included in the lab report.
 
-Diagram
+## Diagram
 ![image](https://github.com/user-attachments/assets/d7ecb419-906e-4e3b-9b82-f86ced4f364a)
 
 
@@ -63,7 +63,7 @@ module seven_segment_display (
     end
 endmodule
 ```
-output
+## output
 ![Screenshot 2024-09-26 140505](https://github.com/user-attachments/assets/1406124f-c33e-4ec3-a458-05f00a968144)
 
 
